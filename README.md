@@ -35,7 +35,7 @@ Az összes BigPizza egyben Pizza is és PizzaType típusú változója mindig bi
 `boolean isSpicy` ami megmondja, hogy csípős-e az adott feltét. Konstruktor segítségével beállítható kell legyen. Tartozik hozzá egy getter.
 ## **hu.nive.ujratervezes.coolpizza.Pizzeria**
 **Tulajdonsága:**  
-`List<Pizza> pizzaList` a boltban aznap eladott pizzák listája. Tartozik hozzá egy getter.  
+`List<Pizza> pizzas` a boltban aznap eladott pizzák listája. Tartozik hozzá egy getter.  
 **Metodusai:**  
 `double calculateAveragePriceOfPizzas()` vissza adja az átlag árát az eladott pizzáknak.  
 `int countSpicyPizzas()` vissza adja, hogy hány darab csípős pizzát adtak el aznap.  
